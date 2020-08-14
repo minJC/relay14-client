@@ -1,8 +1,8 @@
 let express = require("express");
 let app = express();
 
-app.listen(3000, function(){
-    console.log("App is running on port 3000");
+app.listen(process.env.PORT, function(){
+    console.log("App is running on port");
 });
 
 app.get("/", function(req, res){
