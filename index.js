@@ -14,6 +14,7 @@ app.get("/", function (req, res) {
         data: params
     }).then((response) => {
         res.send(response.data);
+        res.send('ddd');
     }, (error) => {
         console.log(error);
     });;
