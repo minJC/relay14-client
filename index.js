@@ -17,7 +17,7 @@ app.get("/", function (req, res) {
     }, (error) => {
         console.log(error);
     });;
-    res.sendfile("index.html");
+    //res.sendfile("index.html");
 });
 
 
