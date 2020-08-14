@@ -13,7 +13,7 @@ app.get("/", function (req, res) {
         url: 'https://relay14-server.herokuapp.com/',
         data: params
     }).then((response) => {
-        res.send(response.data);
+        //res.send(response.data+" sssss");
         res.send('ddd');
     }, (error) => {
         console.log(error);
